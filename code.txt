@@ -1,0 +1,56 @@
+InputStream inputStream = null;
+            String result = "";
+            try {
+
+
+
+                // 1. create HttpClient
+                HttpClient httpclient = new DefaultHttpClient();
+
+                HttpPut httpPut=new HttpPut("http://prepaidpos.online/Service1.svc?payamount");
+                // 2. make POST request to the given URL
+                //HttpPost httpPost = new HttpPost("http://prepaidpos.online/Service1.svc");
+
+                String json = "";
+
+                // 3. build jsonObject
+                JSONObject jsonObject = new JSONObject();
+                jsonObject.put("counter","101");
+                jsonObject.put("amount","20");
+                jsonObject.put("cardno","0003661005");
+                jsonObject.put("deviceid","0003661005");
+
+
+
+
+                // 4. convert JSONObject to JSON to String
+                json = jsonObject.toString();
+                // ** Alternative way to convert Person object to JSON string usin Jackson Lib
+                // ObjectMapper mapper = new ObjectMapper();
+                // json = mapper.writeValueAsString(person);
+
+                // 5. set json to StringEntity
+                StringEntity se = new StringEntity(json);
+
+                // 6. set httpPost Entity
+                httpPut.setEntity(se);
+
+                // 7. Set some headers to inform server about the type of the content
+                httpPut.setHeader("Accept", "application/json");
+                httpPut.setHeader("Content-type", "application/json");
+
+                // 8. Execute POST request to the given URL
+                HttpResponse httpResponse = httpclient.execute(httpPut);
+
+                // 9. receive response as inputStream
+                inputStream = httpResponse.getEntity().getContent();
+
+                // 10. convert inputstream to string
+                if(inputStream != null)
+                    result = convertInputStreamToString(inputStream);
+                else
+                    result = "Did not work!";
+
+            } catch (Exception e) {
+                Log.d("InputStream", e.getLocalizedMessage());
+            }

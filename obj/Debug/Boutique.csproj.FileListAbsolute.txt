@@ -1,0 +1,2 @@
+F:\MY_data\WebSiteProjects\Boutique\bin\Debug\ImperialPlastics.exe.config
+F:\MY_data\WebSiteProjects\Billing System\bin\Debug\ImperialPlastics.exe.config

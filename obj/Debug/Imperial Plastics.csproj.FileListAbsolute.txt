@@ -1,0 +1,162 @@
+F:\MY_data\WebSiteProjects\Boutique\bin\Debug\Boutique.exe.config
+F:\MY_data\WebSiteProjects\Boutique\bin\Debug\Boutique.exe.manifest
+F:\MY_data\WebSiteProjects\Boutique\bin\Debug\Boutique.application
+F:\MY_data\WebSiteProjects\Boutique\bin\Debug\Boutique.exe
+F:\MY_data\WebSiteProjects\Boutique\bin\Debug\Boutique.pdb
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Assignment.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Bill.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.EmpDetails.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Main.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Printbalance.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.ShowBills.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Expenditure.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Category.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.OrderComplete.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Module.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.OrderTypeMas.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.PrintAssignment.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.ReportBooking.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.IteamReport.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.ListProduct.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.frmregistation.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.PrintSticker.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Customers.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.frmLogin.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.frmpayment.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.frmPaymentdetail.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.EmployeeMas.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Purchased.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Products.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Home.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.MDIFORM.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Properties.Resources.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Reports.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.SMSDetails.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Imperial Plastics.csproj.GenerateResource.Cache
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.exe.manifest
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.application
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.exe
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.pdb
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Imperial Plastics.csprojResolveAssemblyReference.cache
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Netbalance.resources
+F:\MY_data\WebSiteProjects\Boutique\obj\Debug\Boutique.Welcome.resources
+F:\MY_data\WebSiteProjects\Billing System\bin\Debug\GST.exe.config
+F:\MY_data\WebSiteProjects\Billing System\bin\Debug\GST.exe.manifest
+F:\MY_data\WebSiteProjects\Billing System\bin\Debug\GST.application
+F:\MY_data\WebSiteProjects\Billing System\bin\Debug\GST.exe
+F:\MY_data\WebSiteProjects\Billing System\bin\Debug\GST.pdb
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Assignment.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Bill.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.CategoryMas.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Form2.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Form3.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.MasterData.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.ListBill.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.SelectCompany.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.CompanyMas.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.PartyLeg.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Partymas.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.PartyPayment.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.CustomerLeg.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.StockRegister.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.SaleRegister.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.PurchaseRegister.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.NetProfit.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Payment.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Iteams.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Welcome.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Netbalance.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.EmpDetails.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Main.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Printbalance.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.ShowBills.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Expenditure.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Category.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.OrderComplete.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Module.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.OrderTypeMas.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.PrintAssignment.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.ReportBooking.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.IteamReport.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.ListProduct.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.frmregistation.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.PrintSticker.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Customers.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.frmLogin.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.ItemMas.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.frmPaymentdetail.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.EmployeeMas.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Purchased.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Products.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Home.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.MDIFORM.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Properties.Resources.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.Reports.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.SMSDetails.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\Imperial Plastics.csproj.GenerateResource.cache
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.exe.manifest
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.application
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.exe
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.pdb
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\GST.PendBill.resources
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\Imperial Plastics.csprojResolveAssemblyReference.cache
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\RdlCompile.cache
+F:\MY_data\WebSiteProjects\Billing System\obj\Debug\RdlCompile.compiled
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.CategoryMas.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.MasterData.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.ListBill.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.OfficeMas.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.PendBill.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.SelectCompany.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.CompanyMas.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.Partymas.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.CustomerLeg.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.SaleRegister.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.PurchaseRegister.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.NetProfit.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.Iteams.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.Welcome.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.Main.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.Module.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.ReportBooking.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.IteamReport.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.frmLogin.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.ItemMas.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.Properties.Resources.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\Imperial Plastics.csproj.GenerateResource.cache
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\Imperial Plastics.csproj.CoreCompileInputs.cache
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.exe
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.pdb
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\GST.exe.config
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\GST.exe.manifest
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\GST.application
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\GST.exe
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\GST.pdb
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.Shared.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\System.Web.Services.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\AxShockwaveFlashObjects.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\ShockwaveFlashObjects.dll
+D:\MY_data\WebSiteProjects\StockSystem\bin\Debug\stdole.dll
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.exe.manifest
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.application
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\Imperial Plastics.csproj.CopyComplete
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.IssueStock.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\Imperial Plastics.csprojAssemblyReference.cache
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.TransferStock.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.CategoryWiseLeg.resources
+D:\MY_data\WebSiteProjects\StockSystem\obj\Debug\GST.StockMaintainceBill.resources
