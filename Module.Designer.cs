@@ -60,10 +60,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::GST.Properties.Resources.letter_g_hd_png_letter_g_wallpaper_300;
+            this.pictureBox1.Image = global::GST.Properties.Resources.Haryana_police_logo;
             this.pictureBox1.Location = new System.Drawing.Point(183, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(206, 197);
+            this.pictureBox1.Size = new System.Drawing.Size(213, 197);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;

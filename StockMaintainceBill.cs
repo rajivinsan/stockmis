@@ -11,8 +11,8 @@ using System.Data.SqlClient;
 using System.Net.NetworkInformation;
 using System.Configuration;
 using System.Text.RegularExpressions;
-
-
+using System.IO;
+using ClosedXML.Excel;
 
 namespace GST
 {
@@ -391,8 +391,7 @@ namespace GST
                     "INNER JOIN Work_Mas ON StockMaintaince.Workid = Work_Mas.Work_code where StockMaintaince.stockid =" + lblpid.Text + " and StockMaintaince.workid=" + drpWork.SelectedValue + " order by dated desc", con);
                 DataSet ds1 = new DataSet();
                 ad1.Fill(ds1);
-
-
+                
                 dataGridView1.DataSource = ds1.Tables[0];
 
                 ds1.Dispose();
@@ -414,6 +413,42 @@ namespace GST
             dataGridView1.Columns[0].Width = dataGridView1.Width / 3;
             dataGridView1.Columns[0].Width = dataGridView1.Width / 3;
             dataGridView1.Columns[0].Width = dataGridView1.Width / 3;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+                //Creating DataTable
+                DataTable dt = new DataTable();
+
+                //Adding the Columns
+                foreach (DataGridViewColumn column in dataGridView1.Columns)
+                {
+                    dt.Columns.Add(column.HeaderText, column.ValueType);
+                }
+
+                //Adding the Rows
+                foreach (DataGridViewRow row in dataGridView1.Rows)
+                {
+                    dt.Rows.Add();
+                    foreach (DataGridViewCell cell in row.Cells)
+                    {
+                        dt.Rows[dt.Rows.Count - 1][cell.ColumnIndex] = cell.Value.ToString();
+                    }
+                }
+
+                //Exporting to Excel
+                string folderPath = "C:\\Excel\\";
+                if (!Directory.Exists(folderPath))
+                {
+                    Directory.CreateDirectory(folderPath);
+                }
+                using (XLWorkbook wb = new XLWorkbook())
+                {
+                    wb.Worksheets.Add(dt, "StockData");
+                    wb.SaveAs(folderPath + "StockMaintaince.xlsx");
+                }
+            
         }
     }
     

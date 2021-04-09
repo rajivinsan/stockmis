@@ -40,6 +40,7 @@
             this.drpOffice = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lbltotal = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -97,12 +98,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label16.AutoEllipsis = true;
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Firebrick;
-            this.label16.Location = new System.Drawing.Point(275, 16);
+            this.label16.Location = new System.Drawing.Point(265, 16);
             this.label16.Name = "label16";
             this.label16.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label16.Size = new System.Drawing.Size(296, 37);
+            this.label16.Size = new System.Drawing.Size(354, 37);
             this.label16.TabIndex = 0;
             this.label16.Text = "Category Wise Ledger";
             this.label16.Click += new System.EventHandler(this.label16_Click);
@@ -114,7 +115,7 @@
             this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button1.ForeColor = System.Drawing.Color.White;
-            this.Button1.Location = new System.Drawing.Point(547, 142);
+            this.Button1.Location = new System.Drawing.Point(537, 142);
             this.Button1.Name = "Button1";
             this.Button1.Size = new System.Drawing.Size(90, 37);
             this.Button1.TabIndex = 1;
@@ -127,9 +128,9 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(653, 142);
+            this.button3.Location = new System.Drawing.Point(644, 142);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 37);
+            this.button3.Size = new System.Drawing.Size(97, 37);
             this.button3.TabIndex = 4;
             this.button3.Text = "Close";
             this.button3.UseVisualStyleBackColor = false;
@@ -144,17 +145,16 @@
             this.drpCategory.ForeColor = System.Drawing.SystemColors.ControlText;
             this.drpCategory.FormattingEnabled = true;
             this.drpCategory.IntegralHeight = false;
-            this.drpCategory.Location = new System.Drawing.Point(227, 149);
+            this.drpCategory.Location = new System.Drawing.Point(217, 149);
             this.drpCategory.Name = "drpCategory";
             this.drpCategory.Size = new System.Drawing.Size(278, 27);
             this.drpCategory.TabIndex = 179;
-            
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(116, 154);
+            this.label6.Location = new System.Drawing.Point(106, 154);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(72, 18);
             this.label6.TabIndex = 178;
@@ -165,7 +165,7 @@
             this.drpOffice.BackColor = System.Drawing.Color.White;
             this.drpOffice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.drpOffice.FormattingEnabled = true;
-            this.drpOffice.Location = new System.Drawing.Point(227, 113);
+            this.drpOffice.Location = new System.Drawing.Point(217, 113);
             this.drpOffice.Name = "drpOffice";
             this.drpOffice.Size = new System.Drawing.Size(278, 24);
             this.drpOffice.TabIndex = 180;
@@ -174,7 +174,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(116, 118);
+            this.label2.Location = new System.Drawing.Point(106, 118);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 18);
             this.label2.TabIndex = 181;
@@ -189,6 +189,21 @@
             this.lbltotal.TabIndex = 182;
             this.lbltotal.Text = "0";
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.LightCoral;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(537, 99);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(204, 37);
+            this.button2.TabIndex = 188;
+            this.button2.Text = "Export to Excel";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // CategoryWiseLeg
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -196,6 +211,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(847, 607);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.lbltotal);
             this.Controls.Add(this.drpOffice);
             this.Controls.Add(this.label2);
@@ -231,6 +247,7 @@
         private System.Windows.Forms.ComboBox drpOffice;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbltotal;
+        private System.Windows.Forms.Button button2;
     }
 }
 

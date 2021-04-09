@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.OleDb;
+using System.IO;
+using ClosedXML.Excel;
 
 namespace GST
 {
@@ -33,6 +35,8 @@ namespace GST
             {
                 Showcategory();
                 ShowOffice();
+
+               
                 drpOffice.SelectedIndex = -1;
                 drpCategory.SelectedIndex = -1;
             }
@@ -66,14 +70,22 @@ namespace GST
             OleDbDataAdapter ad1 = new OleDbDataAdapter("Select id,cname from category order by cname", con);
             DataSet ds1 = new DataSet();
             ad1.Fill(ds1);
+            DataRow row = ds1.Tables[0].NewRow();
+            row["id"] = 0;
+            row["cname"] = "ALL";
+            
+            ds1.Tables[0].Rows.InsertAt(row, 0);
+
+
             drpCategory.DataSource = ds1.Tables[0];
             drpCategory.DisplayMember = "CName";
             drpCategory.ValueMember = "id";
 
+           
+
             ds1.Dispose();
             ad1.Dispose();
-
-
+            
 
 
         }
@@ -82,14 +94,22 @@ namespace GST
             OleDbDataAdapter ad1 = new OleDbDataAdapter("Select offid,offname from officemas", con);
             DataSet ds1 = new DataSet();
             ad1.Fill(ds1);
+            DataRow row = ds1.Tables[0].NewRow();
+            row["offid"] = 0;
+            row["offname"] = "ALL";
+
+            ds1.Tables[0].Rows.InsertAt(row, 0);
+
+
             drpOffice.DataSource = ds1.Tables[0];
             drpOffice.DisplayMember = "offname";
             drpOffice.ValueMember = "offid";
+           
 
             ds1.Dispose();
             ad1.Dispose();
 
-
+           
 
 
         }
@@ -100,26 +120,26 @@ namespace GST
             if (drpCategory.Text.Trim() == "")
             {
                 MessageBox.Show("Select Party", "Please Select Party", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                return;
             }
           else if (drpOffice.Text.Trim() == "")
             {
                 MessageBox.Show("Select Party", "Please Select Party", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                return;
             }
             else
             {
-                string qry = "SELECT stock.Invoice, stock.Category, stock.PDATE, stock.Modelno, stock.Serialno, stock.Warranty, stock.AMC, stock.Price, stock.Status, OfficeMas.offname, " +
-                       "FROM stock INNER JOIN OfficeMas ON stock.Issuedto = OfficeMas.offid where stock.issued is not null ";
+                string qry = "SELECT stock.ID,stock.Invoice, stock.Category, stock.PDATE, stock.Modelno, stock.Serialno, stock.Warranty, stock.AMC, stock.Price, stock.Status, OfficeMas.offname " +
+                       "FROM stock INNER JOIN OfficeMas ON stock.Issuedto = OfficeMas.offid where issuedto is not null ";
                 
                
-                if (drpCategory.SelectedText.ToUpper() != "ALL" && drpCategory.SelectedText.Trim() != "")
+                if (drpCategory.Text.ToUpper() != "ALL" && drpCategory.Text.Trim() != "")
                 {
-                     qry = " and stock.category='" + drpCategory.SelectedText+"'";
+                     qry = qry+ " and stock.category='" + drpCategory.Text + "'";
                 }
-                if (drpOffice.SelectedText.ToUpper() != "ALL" && drpOffice.SelectedText.Trim() == "")
+                if (drpOffice.Text.ToUpper() != "ALL" && drpOffice.Text.Trim() != "")
                 {
-                    qry = " and stock.issuedto='" + drpOffice.SelectedText + "' order by issuedto";
+                    qry = qry+ " and stock.issuedto=" + drpOffice.SelectedValue+ " order by issuedto";
                 }
 
 
@@ -165,6 +185,42 @@ namespace GST
         private void btnsearch_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            //Creating DataTable
+            DataTable dt = new DataTable();
+
+            //Adding the Columns
+            foreach (DataGridViewColumn column in dataGridView1.Columns)
+            {
+                dt.Columns.Add(column.HeaderText, column.ValueType);
+            }
+
+            //Adding the Rows
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                dt.Rows.Add();
+                foreach (DataGridViewCell cell in row.Cells)
+                {
+                    dt.Rows[dt.Rows.Count - 1][cell.ColumnIndex] = cell.Value.ToString();
+                }
+            }
+
+            //Exporting to Excel
+            string folderPath = "C:\\Excel\\";
+            if (!Directory.Exists(folderPath))
+            {
+                Directory.CreateDirectory(folderPath);
+            }
+            using (XLWorkbook wb = new XLWorkbook())
+            {
+                wb.Worksheets.Add(dt, "StockData");
+                wb.SaveAs(folderPath + "StockData"+ DateTime.Now.Day+ DateTime.Now.Month+DateTime.Now.Year+".xlsx");
+            }
+            MessageBox.Show("Data Export", "Your Data Exported Successfully", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     } 
 

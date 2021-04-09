@@ -24,9 +24,9 @@ namespace GST
         private void Welcome_Load(object sender, EventArgs e)
         {
             //CalCash();
-            //TotalSale();
-            //TotalSaleinCredit();
-            //TotalSaleininCash();
+            TotalSale();
+            TotalSaleinCredit();
+            TotalSaleininCash();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -71,39 +71,40 @@ namespace GST
         }
         private void TotalSale()
         {
-            String qry = "select Sum(Gtotal) as [Total] from bill where bid in(Select   Max(bid) from bill group by billno) and  bdate =#" + DateTime.Now.ToString("yyyy/MM/dd") + "#";
+            //String qry = "select Sum(Gtotal) as [Total] from bill where bid in(Select   Max(bid) from bill group by billno) and  bdate =#" + DateTime.Now.ToString("yyyy/MM/dd") + "#";
+            String qry = "select count(*) as [Total] from stock ";
             OleDbDataAdapter adp = new OleDbDataAdapter(qry, con);
             DataSet ds = new DataSet();
             adp.Fill(ds);
             if (ds.Tables[0].Rows.Count > 0)
             {
-                label3.Text = ds.Tables[0].Rows[0]["Total"].ToString();
+                lbltotalstock.Text = ds.Tables[0].Rows[0]["Total"].ToString();
             }
             ds.Dispose();
             adp.Dispose();
         }
         private void TotalSaleinCredit()
         {
-            String qry = "select Sum(Gtotal) as [Total] from bill where bid in(Select   Max(bid) from bill group by billno) and  bdate =#" + DateTime.Now.ToString("yyyy/MM/dd") + "# and Term='Credit'";
+            String qry = "select count(*) as [Total] from officemas";
             OleDbDataAdapter adp = new OleDbDataAdapter(qry, con);
             DataSet ds = new DataSet();
             adp.Fill(ds);
             if (ds.Tables[0].Rows.Count > 0)
             {
-                label5.Text = ds.Tables[0].Rows[0]["Total"].ToString();
+                lbltotalps.Text = ds.Tables[0].Rows[0]["Total"].ToString();
             }
             ds.Dispose();
             adp.Dispose();
         }
         private void TotalSaleininCash()
         {
-            String qry = "select Sum(Gtotal) as [Total] from bill where bid in(Select   Max(bid) from bill group by billno) and  bdate =#" + DateTime.Now.ToString("yyyy/MM/dd") + "# and  Term='Cash'";
+            String qry = "select count(*) as [Total] from Stock where issuedto is not null";
             OleDbDataAdapter adp = new OleDbDataAdapter(qry, con);
             DataSet ds = new DataSet();
             adp.Fill(ds);
             if (ds.Tables[0].Rows.Count > 0)
             {
-                label7.Text = ds.Tables[0].Rows[0]["Total"].ToString();
+                lbltotalissued.Text = ds.Tables[0].Rows[0]["Total"].ToString();
             }
             ds.Dispose();
             adp.Dispose();

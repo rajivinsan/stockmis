@@ -121,18 +121,13 @@ namespace GST
         {
            
             Iteams frmpayment = new Iteams(companyid);
-            if (!CheckForm(frmpayment))
+          
             {
                 frmpayment.MdiParent = this;
                 frmpayment.Dock = DockStyle.Fill;
                 frmpayment.Show();
             }
-            else
-            {
-                frmpayment.WindowState = FormWindowState.Normal;
-                frmpayment.BringToFront();
-                frmpayment.Activate();
-            }
+            
 
 
         }
@@ -176,18 +171,13 @@ namespace GST
         {
 
             IssueStock frmpayment = new IssueStock();
-            if (!CheckForm(frmpayment))
+          
             {
                 frmpayment.MdiParent = this;
                 frmpayment.Dock = DockStyle.Fill;
                 frmpayment.Show();
             }
-            else
-            {
-                frmpayment.WindowState = FormWindowState.Normal;
-                frmpayment.BringToFront();
-                frmpayment.Activate();
-            }
+            
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -251,18 +241,13 @@ namespace GST
         private void button10_Click(object sender, EventArgs e)
         {
             Welcome frmpayment = new Welcome();
-            if (!CheckForm(frmpayment))
+          
             {
                 frmpayment.MdiParent = this;
                 frmpayment.Dock = DockStyle.Fill;
                 frmpayment.Show();
             }
-            else
-            {
-                frmpayment.WindowState = FormWindowState.Normal;
-                frmpayment.BringToFront();
-                frmpayment.Activate();
-            }
+            
             
         }
 
@@ -359,6 +344,15 @@ namespace GST
 
         private void button6_Click_1(object sender, EventArgs e)
         {
+
+        }
+
+        private void button5_Click_2(object sender, EventArgs e)
+        {
+            MaintainceLeg frm = new MaintainceLeg();
+            frm.MdiParent = this;
+            frm.Dock = DockStyle.Fill;
+            frm.Show();
 
         }
     }
